@@ -9,6 +9,7 @@
 .card p {
   color: red;
   opacity: .5;
+  text-shadow: 2px 2px 5px black;
 }
 
 .card {
