@@ -1,0 +1,20 @@
+.container {
+  width: 900px;
+  max-width: 900px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container */
+  text-align: center;
+  /* background-color: rgb(0, 0, 0, 0.2); */
+  border-radius: 1%;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
